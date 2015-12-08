@@ -18,6 +18,11 @@
     background: -moz-linear-gradient(#E9FFC9, #ABFF33); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#E9FFC9, #ABFF33); /* Standard syntax */
 }
+.header_content img {
+	height: 100px;
+	width: 100px;
+	float: left;
+}
 
 /* style main navigation bar */
 .main_nav ul {
