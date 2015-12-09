@@ -21,6 +21,14 @@
 .header_content img {
 	height: 100px;
 	width: 100px;
+	padding: 0 0 0 5px;
+	float: left;
+}
+
+.header_content p {
+	padding: 25px 25px 25px 20px;
+	font-size: 20px;
+	color: gray;
 	float: left;
 }
 
