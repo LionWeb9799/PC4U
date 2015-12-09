@@ -5,8 +5,11 @@
 	<title>Startpagina</title>
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
 	<style>
-		
+		.index_articles h2 {
+			padding: 25px 0 25px 0;
+		}
 		.index_article .container {
+			position: relative; /**/
 			height: 150px;
 			width: 100%;
 			overflow: hidden;
@@ -14,14 +17,18 @@
 			box-sizing: border-box; /* voorkomt dat de padding het formaat van het element vergroot  */
 		}
 		.index_article .container img {
+			position: absolute;/* absoluut gepositioneerd relative aan de container */
 			width: 100%;
 		}
 		.col-3 {
 			width: 25%;
-			float:left;
+			float: left;
 		}
 		.index_article p {
 			padding: 10px 20px 10px 0;
+		}
+		.placeholder:hover {
+			opacity: 0;
 		}
 
 	</style>
@@ -46,43 +53,79 @@
 		</div>
 		<div class="main_content">
 			<div class="index_banner">
-				<h1>Nieuw 2015: computeronderdelen en games</h1>
-				
+				<h1>Overzicht van de nieuwste games en computer onderdelen in 2015</h1>
 			</div>
 			<div class="index_articles">
 
+
 				<h2>Games</h2>
-				<div class="index_article col-3">
-					<div class="container">
-					<img src="img/20150912_PC4U_games_fallout4.jpg" alt="fallout 4">
-					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi molestiae commodi cumque non, eum nihil quas odit velit voluptatem, laudantium laborum, mollitia animi dolor praesentium! Iure quas quis fuga, velit!</p>
-				</div>
 
-				<div class="index_article col-3">
-					<div class="container">
-					<img src="img/20150912_PC4U_games_gta5.jpg" alt="fallout 4">
+					<div class="index_article col-3">
+						<div class="container">
+							<img src="img/fallout4.gif" alt="fallout 4">
+							<img class="placeholder" src="img/20150912_PC4U_games_Fallout4.jpg" alt="fallout 4">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi molestiae commodi cumque non, eum nihil quas odit velit voluptatem, laudantium laborum, mollitia animi dolor praesentium! Iure quas quis fuga, velit!</p>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga consectetur quas sunt velit necessitatibus pariatur deleniti, deserunt. Reiciendis itaque, fugit quam et eos cupiditate porro velit voluptates. Repellendus, distinctio, nulla!</p>
-				</div>
 
-				<div class="index_article col-3">
-					<div class="container">
-					<img src="img/20150912_PC4U_games_thewitcherwildhunt3.jpg" alt="fallout 4">
+					<div class="index_article col-3">
+						<div class="container">
+							<img src="img/20150912_PC4U_games_gta5.gif" alt="gta 5">
+							<img class="placeholder" src="img/20150912_PC4U_games_gta5.jpg" alt="gta 5">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga consectetur quas sunt velit necessitatibus pariatur deleniti, deserunt. Reiciendis itaque, fugit quam et eos cupiditate porro velit voluptates. Repellendus, distinctio, nulla!</p>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio provident blanditiis minima ex error quam corporis expedita praesentium aliquam at. Dolor quos fugiat odit consectetur alias quod quaerat, earum illo.</p>
-				</div>
 
-				<div class="index_article col-3">
-					<div class="container">
-					<img src="img/20150912_PC4U_games_starcraft2.png" alt="fallout 4">
+					<div class="index_article col-3">
+						<div class="container">
+							<img src="img/20150912_PC4U_games_thewitcherwildhunt3.gif" alt="the witcher wild hunt 3">
+							<img class="placeholder" src="img/20150912_PC4U_games_thewitcherwildhunt3.jpg" alt="the witcher wild hunt 3">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio provident blanditiis minima ex error quam corporis expedita praesentium aliquam at. Dolor quos fugiat odit consectetur alias quod quaerat, earum illo.</p>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias saepe eos maiores rerum totam voluptates mollitia unde esse, facilis voluptas vitae tenetur, fugit rem veniam voluptatibus nemo, id. Dicta, molestiae.</p>
-				</div>
+
+					<div class="index_article col-3">
+						<div class="container">
+							<img src="img/20150912_PC4U_games_starcraft2.gif" alt="starcraft 2">
+							<img class="placeholder" src="img/20150912_PC4U_games_starcraft2.png" alt="starcraft 2">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias saepe eos maiores rerum totam voluptates mollitia unde esse, facilis voluptas vitae tenetur, fugit rem veniam voluptatibus nemo, id. Dicta, molestiae.</p>
+					</div>
+
+
 				<h2>Computeronderdelen</h2>
-				<div class="index_article">
-					
-				</div>
+				
+					<div class="index_article col-3">
+						<div class="container">
+							<img src="img/fallout4.gif" alt="fallout 4">
+							<img class="placeholder" src="img/20150912_PC4U_games_Fallout4.jpg" alt="fallout 4">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi molestiae commodi cumque non, eum nihil quas odit velit voluptatem, laudantium laborum, mollitia animi dolor praesentium! Iure quas quis fuga, velit!</p>
+					</div>
+
+					<div class="index_article col-3">
+						<div class="container">
+							<img src="img/20150912_PC4U_games_gta5.gif" alt="gta 5">
+							<img class="placeholder" src="img/20150912_PC4U_games_gta5.jpg" alt="gta 5">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga consectetur quas sunt velit necessitatibus pariatur deleniti, deserunt. Reiciendis itaque, fugit quam et eos cupiditate porro velit voluptates. Repellendus, distinctio, nulla!</p>
+					</div>
+
+					<div class="index_article col-3">
+						<div class="container">
+							<img src="img/20150912_PC4U_games_thewitcherwildhunt3.gif" alt="the witcher wild hunt 3">
+							<img class="placeholder" src="img/20150912_PC4U_games_thewitcherwildhunt3.jpg" alt="the witcher wild hunt 3">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio provident blanditiis minima ex error quam corporis expedita praesentium aliquam at. Dolor quos fugiat odit consectetur alias quod quaerat, earum illo.</p>
+					</div>
+
+					<div class="index_article col-3">
+						<div class="container">
+							<img src="img/20150912_PC4U_games_starcraft2.gif" alt="starcraft 2">
+							<img class="placeholder" src="img/20150912_PC4U_games_starcraft2.png" alt="starcraft 2">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias saepe eos maiores rerum totam voluptates mollitia unde esse, facilis voluptas vitae tenetur, fugit rem veniam voluptatibus nemo, id. Dicta, molestiae.</p>
+					</div>
 			</div>
 		</div>
 		<div class="footer">
