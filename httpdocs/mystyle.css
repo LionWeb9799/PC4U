@@ -58,3 +58,36 @@
     background: linear-gradient(#008000, #009900); /* Standard syntax */
 	cursor: pointer;
 }
+
+/*  */
+
+/* style footer */
+.footer {
+	height: 150px;
+	background: #008000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#008000, #009900); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#008000, #009900); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#008000, #009900); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#008000, #009900); /* Standard syntax */
+	cursor: pointer;
+}
+.footer_content {
+	padding: 20px 20px 20px 20px;
+}
+
+.footer_content h1 {
+	color: #FFFFFF;
+	font-size: 25px;
+	margin: 0 0 10px 0;
+}
+
+.footer_content ul {
+	list-style: none;
+}
+.footer_content li {
+	padding: 0 0 5px 0;
+}
+.footer_content a {
+	color: #FFF;
+	text-decoration: underline;
+}
