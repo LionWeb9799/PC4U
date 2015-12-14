@@ -7,7 +7,7 @@
 	<style>
 		.paragraphs h1 {
 		text-align: center;
-		padding: 0 0 50px 0;
+		padding: 10px 0 50px 0;
 	}
 
 	.paragraph h2 {
@@ -28,9 +28,15 @@
 		padding: 5px;
 	}
 
-	.formgroup textarea {
-		margin: 0 0 15px 10px;
+	.locatie {
+		margin: 20px 0 0 0;
 	}
+
+	iframe {
+		box-shadow: 1px 1px 3px black;
+		margin: 0 0 10px 0;
+	}
+
 	</style>
 </head>
 <body>
@@ -66,25 +72,30 @@
 									
 									<form>
 										<div class="formgroup">
-											<input type="text" id="Naam" placeholder="Naam">
+											<input type="text" id="Naam" placeholder="Naam*">
 										</div>
 										<div class="formgroup">
 											<input type="text" id="Phonenumber" placeholder="Telefoonnummer">
 										</div>
 										<div class="formgroup">
-											<input type="email" id="E-mail" placeholder="E-mail">
+											<input type="email" id="E-mail" placeholder="E-mail*">
 										</div>
 										<div class="formgroup">
-											<textarea name="" id="Message" cols="100" rows="5" placeholder="Bericht"></textarea>
+											<textarea name="" id="Message" cols="100" rows="5" placeholder="Bericht*"></textarea>
+										</div>
+										<div class="formgroup">
+											<input type="submit" value="Verzenden">
 										</div>
 									</form>
 
 								</div>
 					</div>
 					<div class="paragraph">
-						<h2>Lorem ipsum</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptatibus ab incidunt in dolorum. Quasi quas officia vitae laboriosam mollitia sint culpa exercitationem quia accusantium officiis magni voluptatum, illum magnam!</p>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2477.906863513518!2d4.7780138!3d51.6065951!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xde96dee71e46a13f!2sRadius+College!5e0!3m2!1snl!2snl!4v1450106414014" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div class="locatie">
+							<h2>Kaart en routebeschrijving</h2>
+						</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptatibus ab incidunt in dolorum. Quasi quas officia vitae laboriosam mollitia sint culpa exercitationem quia accusantium officiis magni voluptatum, illum magnam!</p>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2477.906863513518!2d4.7780138!3d51.6065951!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xde96dee71e46a13f!2sRadius+College!5e0!3m2!1snl!2snl!4v1450106414014" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 			</div>
 		</div>
