@@ -5,7 +5,67 @@
 	<title>Games</title>
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
 	<style>
+		.games {
+			
+		}
+
+		.game_article {
+			overflow: hidden;
+			margin: 10px 0 10px 0;
+			border: 1px dotted #000;
+			border-radius: 5px;
+		}
+
+		.game_article .container {
+			position: relative; /**/
+			height: 150px;
+			width: 95%;
+			overflow: hidden;
+			padding: 40px 10px 40px 10px;
+			box-sizing: border-box; /* voorkomt dat de padding het formaat van het element vergroot  */
+		}
+
+		.game_article .description {
+			padding: 40px 5px 40px 5px;
+		}
+
+		.game_article .container img {
+			position: none;/* absoluut gepositioneerd relative aan de container */
+			width: 100%; /**/
+			border-radius: 5px;
+		}
+
+		.game_article .price {
+			background-color: #130199;
+		}
+
+		.row-gap {
+			width: 95%;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+
+		.col-gap-3 {
+			box-sizing: border-box;
+			width: 20%;
+			float: left;
+			height: 100%;
+		}
+
+		.col-gap-8 {
+			box-sizing: border-box;
+			width: 65%;
+			float: left;
+		}
+
+		.col-gap-2 {
+			box-sizing: border-box;
+			width: 15%;
+			float: left;
+		}
+
 		
+
 	</style>
 </head>
 <body>
@@ -27,7 +87,23 @@
 			</div>
 		</div>
 		<div class="main_content">
-			
+			<div class="games row-gap">
+				<div class="game_article">
+					<div class="game_img col-gap-3" >
+						<div class="container ">
+							<img src="img/20150912_PC4U_games_Fallout4.jpg" alt="fallout 4">
+						</div>
+					</div>
+					<div class="description col-gap-8">
+						<h3>Fall-out 4</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt eum optio mollitia eius dolor sequi fuga, magnam magni vel non dolorum porro facere ratione pariatur nesciunt vero ducimus, veniam consequuntur.</p>
+					</div>
+					<div class="price col-gap-2">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum cumque quam tempore molestias magnam, a labore ex nam impedit ea quidem odio eius laborum asperiores fuga nesciunt id. Et, quos.</p>
+					</div>
+
+				</div>
+			</div>
 		</div>
 		<div class="footer">
 			<div class="footer_content">
