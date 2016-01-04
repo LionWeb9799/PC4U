@@ -188,3 +188,9 @@ footer section a {
 .col-9 {
 	width: 75%;
 }
+
+.commodity_box {
+	display: flex;
+	justify-content: space-between;
+	height: 200px;
+}
