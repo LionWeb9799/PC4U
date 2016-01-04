@@ -182,5 +182,9 @@ footer section a {
 }
 
 .col-6 {
-	width: ;50%
+	width: 50%;
+}
+
+.col-9 {
+	width: 75%;
 }
