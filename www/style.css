@@ -15,6 +15,122 @@ body {
 	margin: 0 auto;
 }
 
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*===== TEMPLATE pages ========================= */
+
+/* header */
+
+header {
+	margin-bottom: 20px;
+}
+
+header .logo {
+	padding-left: 5px;
+}
+
+header .logo img {
+	height: 100px;
+}
+
+header section {
+	display: flex;
+	justify-content: space-around;
+	height: 100px;
+	background: #E9FFC9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#E9FFC9, #ABFF33); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#E9FFC9, #ABFF33); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#E9FFC9, #ABFF33); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#E9FFC9, #ABFF33); /* Standard syntax */
+}
+
+header section p {
+	font-size: 20px;
+	color: gray;
+	margin-top: 10px;
+}
+
+/* navigation bar */
+
+header nav ul {
+	display: flex;
+	justify-content: space-around;
+	background: #00cc00; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#00cc00, #008000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00cc00, #008000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00cc00, #008000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00cc00, #008000); /* Standard syntax */
+}
+
+header nav li {
+	display: inline;
+	width: 100%;
+	text-align: center;
+}
+
+header nav a {
+	display: inline-block;
+	color: #FFF;
+	padding: 10px;
+}
+
+header nav li:hover {
+	background: #008000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#008000, #009900); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#008000, #009900); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#008000, #009900); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#008000, #009900); /* Standard syntax */
+	cursor: pointer;
+}
+
+header nav a:hover {
+	background: #008000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#008000, #009900); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#008000, #009900); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#008000, #009900); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#008000, #009900); /* Standard syntax */
+	cursor: pointer;
+}
+
+/* footer */
+
+footer {
+	margin-top: 20px;
+	height: 150px;
+	background: #008000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#008000, #009900); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#008000, #009900); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#008000, #009900); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#008000, #009900); /* Standard syntax */
+	cursor: pointer;
+}
+
+footer section {
+	padding: 20px 20px 20px 20px;
+}
+
+footer h1 {
+	color: #FFFFFF;
+	font-size: 25px;
+	margin: 0 0 10px 0;
+}
+
+footer li {
+	padding: 0 0 5px 0;
+}
+
+footer a {
+	color: #FFF;
+}
+
+
 /*===== Elements ========================= */
 
 .col-3 {
@@ -34,6 +150,9 @@ body {
 	width: 100%;
 	height: 300px;
 }
+
+
+
 
 /*===== Styling pages ========================= */
 
