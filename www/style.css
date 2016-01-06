@@ -151,13 +151,19 @@ footer a {
 	height: 300px;
 }
 
-
+.horizon_row {
+	display: flex;
+	justify-content: space-between;
+}
 
 
 /*===== Styling pages ========================= */
 
 /* index */
 
+.game_list h1 {
+	margin: 10px 0 50px 0;
+}
 /* computers */
 
 /* games */
