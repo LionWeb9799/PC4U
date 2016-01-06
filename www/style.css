@@ -23,7 +23,13 @@ a {
 	text-decoration: none;
 }
 
+h2 {
+	font-size: 21px;
+}
 
+p {
+	font-size: 16px;
+}
 /*===== TEMPLATE pages ========================= */
 
 /* header */
@@ -156,6 +162,29 @@ footer a {
 	justify-content: space-between;
 }
 
+.horizon_row .container {
+	position: relative;
+	height: 150px;
+	width:  95%;
+	overflow: hidden;
+	padding-right: 20px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+}
+
+.horizon_row .container img{
+	position: absolute;
+	width: 100%;
+}
+
+.horizon_row article h2 {
+	margin-bottom: 15px;
+}
+
+.horizon_row article p {
+	padding: 0 10px 0 0;
+}
+
 .commodity_box {
 	display: flex;
 	justify-content: space-between;
@@ -172,9 +201,7 @@ footer a {
 	margin: 10px 0 50px 0;
 }
 
-.disapear_placeholder:hover {
-	opacity: 0;
-}
+
 
 /* computers */
 
