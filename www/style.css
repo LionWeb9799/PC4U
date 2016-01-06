@@ -156,14 +156,26 @@ footer a {
 	justify-content: space-between;
 }
 
+.commodity_box {
+	display: flex;
+	justify-content: space-between;
+	height: 200px;
+	border: 1px solid #000;
+	width: 100%;
+}
+
 
 /*===== Styling pages ========================= */
 
 /* index */
-
 .game_list h1 {
 	margin: 10px 0 50px 0;
 }
+
+.disapear_placeholder:hover {
+	opacity: 0;
+}
+
 /* computers */
 
 /* games */
