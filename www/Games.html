@@ -2,68 +2,49 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Startpagina</title>
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<title>Games</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<style>
-		.games {
-			
+	/*==Commodity_list style====*/
+		.part {
+			margin: 30px 0 0 0;
+		} 
+
+		.image {
+			padding: 5px 5px 5px 5px;
 		}
 
-		.game_article {
-			overflow: hidden;
-			margin: 10px 0 10px 0;
-			border: 1px dotted #000;
-			border-radius: 5px;
-			background-color: #E9FFC9;
+		.discription {
+			border-left: solid #000000 1px;
+			border-right: solid #000000 1px;
 		}
 
-		.game_article .container {
-			position: relative; /**/
-			height: 150px;
-			width: 95%;
-			overflow: hidden;
-			padding: 40px 10px 40px 10px;
-			box-sizing: border-box; /* voorkomt dat de padding het formaat van het element vergroot  */
+		.discription h1 {
+			padding: 10px;
+			color: #CC0000;
+			font-size: 22px;
 		}
 
-		.game_article .description {
-			padding: 40px 5px 40px 5px;
+		.discription p {
+			padding: 0 10px 0 10px;
 		}
 
-		.game_article .container img {
-			position: none;/* absoluut gepositioneerd relative aan de container */
-			width: 100%; /**/
-			border-radius: 5px;
+		.price {
+			text-align: center;
+			margin: 75px 0 0 0;
 		}
 
-		.game_article .price {
-			background-color: #E9FFC9;
+		.price h1 {
+			margin: 0 0 0 -75px;
 		}
 
-		.row-gap {
-			width: 95%;
-			margin: 0 auto;
-			overflow: hidden;
+		.price p{
+			color: #DD0000;
+			font-weight: bold;
+			font-size: 30px;
 		}
 
-		.col-gap-3 {
-			box-sizing: border-box;
-			width: 20%;
-			float: left;
-			height: 100%;
-		}
-
-		.col-gap-8 {
-			box-sizing: border-box;
-			width: 65%;
-			float: left;
-		}
-
-		.col-gap-2 {
-			box-sizing: border-box;
-			width: 15%;
-			float: left;
-		}
+	/*==End Commodity_list style====*/
 	</style>
 </head>
 <body>
@@ -72,8 +53,10 @@
 		<header>
 
 			<section>
-				<img src="20151116_PC4U_header-logo.png" alt="PC4U">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="logo col-3">
+					<img src="20151116_PC4U_header-logo.png" alt="PC4U">
+				</div>
+				<p class="col-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 			</section>
 
 			<nav class="main_nav">
@@ -86,25 +69,49 @@
 					<li><a href="#">Informatie</a></li>
 				</ul>
 			</nav>
+			
+			<div class="games_jumbotron jumbotron">
+				<img src="img/20160102_PC4U_index_jumbotron.jpg" alt="games 2015">
+			</div>
 
 		</header>
 
 		<div class="main_content">
-			<section class="games row-gap">
-				<section class="game_article">
-					<article class="game_img col-gap-3" >
-						<div class="container ">
-							<img src="img/20150912_PC4U_games_Fallout4.jpg" alt="fallout 4">
+			<section class="commodity_list">
+				<div class="parts">
+					<article class="part commodity_box">
+						<img class="col-3 image" src="" alt="GEKKE MAN">
+						<div class="col-6 discription">
+						<h1>MSI GeForce GTX 970 GAMING 4G</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aut dignissimos modi, ipsum deserunt, ex assumenda. Natus, possimus architecto maiores necessitatibus illo nesciunt blanditiis at repellat voluptate sapiente? Tempora, impedit.</p>
 						</div>
-					</div>
-					<article class="description col-gap-8">
-						<h3>Fall-out 4</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt eum optio mollitia eius dolor sequi fuga, magnam magni vel non dolorum porro facere ratione pariatur nesciunt vero ducimus, veniam consequuntur.</p>
+						<div class="price col-3">
+							<h1>prijs:</h1>
+							<p>€ 363,95</p>
+						</div>
 					</article>
-					<article class="price col-gap-2">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum cumque quam tempore molestias magnam, a labore ex nam impedit ea quidem odio eius laborum asperiores fuga nesciunt id. Et, quos.</p>
+					<article class="part commodity_box">
+						<img class="col-3 image" src="" alt="GEKKE MAN">
+						<div class="col-6 discription">
+						<h1>MSI GeForce GTX 970 GAMING 4G</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aut dignissimos modi, ipsum deserunt, ex assumenda. Natus, possimus architecto maiores necessitatibus illo nesciunt blanditiis at repellat voluptate sapiente? Tempora, impedit.</p>
+						</div>
+						<div class="price col-3">
+							<h1>prijs:</h1>
+							<p>€ 363,95</p>
+						</div>
 					</article>
-
+					<article class="part commodity_box">
+						<img class="col-3 image" src="" alt="GEKKE MAN">
+						<div class="col-6 discription">
+						<h1>MSI GeForce GTX 970 GAMING 4G</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aut dignissimos modi, ipsum deserunt, ex assumenda. Natus, possimus architecto maiores necessitatibus illo nesciunt blanditiis at repellat voluptate sapiente? Tempora, impedit.</p>
+						</div>
+						<div class="price col-3">
+							<h1>prijs:</h1>
+							<p>€ 363,95</p>
+						</div>
+					</article>
 				</div>
 			</section>
 		</div>
@@ -112,10 +119,10 @@
 		<footer>
 			<section>
 				<h1>PC4U</h1>
-				<ul>
-					<li><a href="#">Like ons op Facebook</a></li>
-					<li><a href="#">Volg ons op Twitter</a></li>
-				</ul>
+					<ul>
+						<li><a href="#">Like ons op Facebook</a></li>
+						<li><a href="#">Volg ons op Twitter</a></li>
+					</ul>
 			</section>
 		</footer>
 
