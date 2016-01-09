@@ -25,7 +25,6 @@ a {
 
 h1 {
 	font-size: 25px;
-	color: #003FFF;
 	font-weight: bold;
 	text-shadow: 50px;
 }
@@ -130,7 +129,7 @@ footer section {
 }
 
 footer h1 {
-	color: #FFFFFF;
+	color: #FFF;
 	font-size: 25px;
 	margin: 0 0 10px 0;
 }
@@ -188,8 +187,18 @@ footer a {
 	margin-bottom: 15px;
 }
 
+.horizon_row article h3 {
+	font-size: 16px;
+}
+
 .horizon_row article p {
 	padding: 0 10px 0 0;
+}
+
+.horizon_row article li {
+	font-size: 15px;
+}
+
 }
 
 .commodity_box {
@@ -204,12 +213,16 @@ footer a {
 /*===== Styling pages ========================= */
 
 /* index */
+.game_list {
+	margin: 0 0 25px 0;
+}
+
 .game_list h1 {
-	margin: 10px 0 50px 0;
+	margin: 5px 0 20px 0;
 }
 
 .dissappear_placeholder {
-	opacity: 0.8;
+	opacity: 0.88;
 }
 
 .dissappear_placeholder:hover {
