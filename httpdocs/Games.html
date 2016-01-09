@@ -3,118 +3,151 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Games</title>
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<style>
-		.games {
-			
-		}
 
-		.game_article {
-			overflow: hidden;
-			margin: 10px 0 10px 0;
-			border: 1px dotted #000;
-			border-radius: 5px;
-			background-color: #E9FFC9;
+		.container {
+			margin: 40px 0 0 0;
 		}
-
-		.game_article .container {
-			position: relative; /**/
-			height: 150px;
-			width: 95%;
-			overflow: hidden;
-			padding: 40px 10px 40px 10px;
-			box-sizing: border-box; /* voorkomt dat de padding het formaat van het element vergroot  */
-		}
-
-		.game_article .description {
-			padding: 40px 5px 40px 5px;
-		}
-
-		.game_article .container img {
-			position: none;/* absoluut gepositioneerd relative aan de container */
-			width: 100%; /**/
-			border-radius: 5px;
-		}
-
-		.game_article .price {
-			background-color: #E9FFC9;
-		}
-
-		.row-gap {
-			width: 95%;
-			margin: 0 auto;
-			overflow: hidden;
-		}
-
-		.col-gap-3 {
-			box-sizing: border-box;
-			width: 20%;
-			float: left;
-			height: 100%;
-		}
-
-		.col-gap-8 {
-			box-sizing: border-box;
-			width: 65%;
-			float: left;
-		}
-
-		.col-gap-2 {
-			box-sizing: border-box;
-			width: 15%;
-			float: left;
-		}
-
-		
 
 	</style>
 </head>
 <body>
-	<div class="wrapper">
-		<div class="header">
-			<div class="header_content">
-				<img src="20151116_PC4U_header-logo.png" alt="Website logo">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			</div>
-			<div class="main_nav">
-				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">Computers</a></li>
-					<li><a href="">Games</a></li>
-					<li><a href="">Shop</a></li>
-					<li><a href="">Reparatie</a></li>
-					<li><a href="">Informatie</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="main_content">
-			<div class="games row-gap">
-				<div class="game_article">
-					<div class="game_img col-gap-3" >
-						<div class="container ">
-							<img src="img/20150912_PC4U_games_Fallout4.jpg" alt="fallout 4">
-						</div>
-					</div>
-					<div class="description col-gap-8">
-						<h3>Fall-out 4</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt eum optio mollitia eius dolor sequi fuga, magnam magni vel non dolorum porro facere ratione pariatur nesciunt vero ducimus, veniam consequuntur.</p>
-					</div>
-					<div class="price col-gap-2">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum cumque quam tempore molestias magnam, a labore ex nam impedit ea quidem odio eius laborum asperiores fuga nesciunt id. Et, quos.</p>
-					</div>
+	<div class="pagewrapper">
 
+		<header>
+
+			<section>
+				<div class="logo col-3">
+					<img src="20151116_PC4U_header-logo.png" alt="PC4U">
 				</div>
-			</div>
-		</div>
-		<div class="footer">
-			<div class="footer_content">
-				<h1>PC4U</h1>
+				<p class="col-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</section>
+
+			<nav class="main_nav">
 				<ul>
-					<li><a href="">Like ons op Facebook</a></li>
-					<li><a href="">Volg ons op Twitter</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Computers</a></li>
+					<li><a href="#">Games</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Reparatie</a></li>
+					<li><a href="#">Informatie</a></li>
 				</ul>
+			</nav>
+			
+		</header>
+
+		<div class="main_content">
+
+			<div class="games_jumbotron jumbotron">
+				<img src="img/20160102_PC4U_index_jumbotron.jpg" alt="games 2015">
 			</div>
+
+			<section class="horizon_row">
+				<article class="col-3">
+					<div class="container">
+						<img src="img/20150912_PC4U_games_Fallout4.jpg" alt="fall-out 4">
+					</div>
+					<h2>Fall-out 4</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus expedita ipsa, vel laboriosam fuga eveniet unde placeat maiores tempore error, quae dolorum provident dolor vitae rerum cumque. Labore, ab!</p>
+				</article>
+				<article class="col-3">
+					<div class="container">
+						<img src="img/20150912_PC4U_games_gta5.jpg" alt="Grand theft auto V (GTA V)">
+					</div>
+					<h2>Grand theft auto V</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consequuntur nemo, reiciendis non dolor corporis commodi ex maiores ratione cumque aut eligendi reprehenderit harum sunt laborum. Reiciendis facere ipsum tenetur!</p>
+				</article>
+				<article class="col-3">
+					<div class="container">
+						<img src="img/20150912_PC4U_games_thewitcherwildhunt3.jpg" alt="The Wither wild hunt III">
+					</div>
+					<h2>The Wither wild hunt III</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ea, voluptates voluptate rem iste porro dolore sunt ipsum laboriosam recusandae. In earum ab nobis, modi eaque enim. Optio, rerum, incidunt.</p>
+				</article>
+				<article class="col-3">
+					<div class="container">
+						<img src="img/20150912_PC4U_games_starcraft2.png" alt="Starcraft 2 legacy of the void">
+					</div>
+					<h2>Starcraft 2 legacy of the void</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque similique quaerat illo, molestias quod quibusdam, laboriosam enim iusto soluta sint quisquam veniam veritatis debitis accusamus voluptates, vel quam ab laudantium!</p>
+				</article>
+			</section>
+
+			<section class="horizon_row">
+				<article class="col-3">
+					<div class="container">
+						<img src="img/20160601_PC4U_games_Farming_simulator.jpg" alt="Farming simulator 2015">
+					</div>
+					<h2>Farming simulator 2015</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas et aperiam placeat eligendi cumque, explicabo sapiente modi. Quia officia, at rem sed quod assumenda ipsum, iure numquam, incidunt magni corporis.</p>
+				</article>
+				<article class="col-3">
+					<div class="container">
+						<img src="img/20160601_PC4U_games_Rainbow_six_siege.jpg" alt="Rainbow six siege">
+					</div>
+					<h2>Rainbow six siege</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam inventore consequuntur quo amet voluptas doloribus, at laboriosam, impedit dicta eos velit soluta, reprehenderit veniam suscipit error fuga voluptatibus deserunt maiores.</p>
+				</article>
+				<article class="col-3">
+					<div class="container">
+						<img src="img/20160601_PC4U_games_Just_cause_3.jpg" alt="Just cause 3">
+					</div>
+					<h2>Just cause 3</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi minima illo dignissimos, aliquid voluptates unde tenetur dolore eaque, quibusdam, nemo perferendis sunt id nam aliquam aspernatur quisquam tempora cum quasi?</p>
+				</article>
+				<article class="col-3">
+					<div class="container">
+						<img src="img/20160601_PC4U_games_Handball_16.jpg" alt="Handball 16">
+					</div>
+					<h2>Handball 16</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam rerum ipsum praesentium labore est. Ab quia perspiciatis corporis voluptate, est rem vel cupiditate repellat quidem inventore velit dolorum similique maxime!</p>
+				</article>
+			</section>
+
+			<section class="horizon_row">
+				<article class="col-3">
+					<div class="container">
+						<img src="img/20160601_PC4U_games_Star_wars_Battle_front.jpg" alt="Star wars Battle front">
+					</div>
+					<h2>Star wars Batlle front</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error vel soluta consectetur, id? Harum aut officiis numquam adipisci, officia. Iure enim nam non quam laborum, perferendis cum beatae, minus facere?</p>
+				</article>
+				<article class="col-3">
+					<div class="container">
+						<img src="img/20160601_PC4U_The_crew_wild_run.jpg" alt="The Crew Wild Run">
+					</div>
+					<h2>The Crew Wild Run</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, id, architecto accusamus rem libero nostrum est! Possimus magni dignissimos provident distinctio repudiandae quo voluptates, voluptate, natus iste deleniti laudantium repellendus.</p>
+				</article>
+				<article class="col-3">
+					<div class="container">
+						<img src="http://static9.cdn.ubi.com/resource/nl-NL/game/assassins-creed/ac/acv-gi-bg1.jpg" alt="Assassins creed Syndicate">
+					</div>
+					<h2>Assassins creed Syndicate</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dicta iure culpa sapiente laboriosam quae, blanditiis sint, veritatis, nesciunt labore ipsa, voluptatem unde deserunt? Harum enim vel adipisci iste est.</p>
+				</article>
+				<article class="col-3">
+					<div class="container">
+						<img src="img/20160601_PC4U_games_De_Sims_4.jpg" alt="De Sims 4">
+					</div>
+					<h2>De Sims 4</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque magnam reiciendis possimus cum, libero, aperiam alias officia nemo velit? Alias, odit, nam. Repellat corrupti placeat fugiat debitis, ullam. Obcaecati, illo.</p>
+				</article>
+			</section>
+
 		</div>
+
+		<footer>
+			<section>
+				<h1>PC4U</h1>
+					<ul>
+						<li><a href="#">Like ons op Facebook</a></li>
+						<li><a href="#">Volg ons op Twitter</a></li>
+					</ul>
+			</section>
+		</footer>
+
 	</div>
 </body>
 </html>
