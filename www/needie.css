@@ -1,0 +1,124 @@
+.shopsection_one {
+	display: flex;
+	justify-content: space-between;
+}
+
+.shop_sidebar {
+	background-color: #B6F2AE;
+	box-shadow: 0 1px 5px 1px rgb(63,60,60);
+}
+
+.shop_sidebar ul {
+
+}
+
+.shop_sidebar li { 
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+	padding: 5px 0 5px 0;
+	box-shadow: 0 1px 5px 1px rgb(63,60,60);
+	margin: 5px 0 5px 0;
+	background: #00cc00; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#00cc00, #008000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00cc00, #008000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00cc00, #008000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00cc00, #008000); /* Standard syntax */
+}
+
+.shop_sidebar a {
+	color: #FFF;
+}
+
+.shop_sidebar li:hover {
+	background: #008000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#008000, #009900); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#008000, #009900); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#008000, #009900); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#008000, #009900); /* Standard syntax */
+}
+
+.shop_sidebar li:first-child {
+	margin-top: 0;
+}
+
+.shop_sidebar li:last-child {
+	margin-bottom: 0;
+}
+
+.shop_banner {
+	width: 80%;
+}
+
+.shop_item .description {
+	width: 40%;
+}			
+
+
+			<section class="shopsection_one">	
+
+				<aside class="shop_sidebar sidebar">
+					<nav>
+						<ul>
+							<li><a href="#">Behuizing</a></li>
+							<li><a href="#">Monitoren</a></li>
+							<li><a href="#">DVD speler/brander</a></li>
+							<li><a href="#">Moederborden</a></li>
+							<li><a href="#">RAM-geheugen</a></li>
+							<li><a href="#">HDD(extern)</a></li>
+							<li><a href="#">Processoren</a></li>
+							<li><a href="#">Grafische kaarten</a></li>
+							<li><a href="#">Geluidskaarten</a></li>
+							<li><a href="#">Netwerkkaarten</a></li>
+							<li><a href="#">Bekabeling</a></li>
+							<li><a href="#">Voeding</a></li>
+							<li><a href="#">Muizen</a></li>
+							<li><a href="#">Toetsenboorden</a></li>
+							<li><a href="#">Geluidskaarten</a></li>
+							<li><a href="#">Racesturen</a></li>
+						</ul>
+					</nav>
+				</aside>
+
+				<div class="shop_banner jumbotron">
+					<img src="img/20160105_PC4U_shop_jumbotron.jpg" alt="Computer banner">
+				</div>
+			
+			</section>
+
+			<section class="commodity_list">
+				<article class="shop_item commodity_box">
+					<div class="description">
+						<h1>heading1</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, blanditiis hic distinctio quia iure. Itaque ex temporibus magni voluptates alias, nesciunt, repudiandae iste! Labore, illo quo veniam tenetur officia unde.</p>
+					</div>
+					<div class="commodity_price col-3">
+						<h1>Prijs:</h1>
+							<p>€ 363,95</p>
+					</div>
+				</article>
+
+				<article class="shop_item commodity_box">
+					<div class="description">
+						<h1></h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptatibus ex necessitatibus cum reiciendis deserunt dolor provident aliquid at fugit dolore, corporis velit dolorem repellendus. Fugit ducimus, ab quasi 
+							deleniti!</p>
+					</div>
+					<div class="commodity_price col-3">
+						<h1>Prijs:</h1>
+							<p>€ 164,95</p>
+					</div>
+				</article>
+
+				<article class="shop_item commodity_box">
+					<div class="description">
+						<h1></h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nobis nulla, id in. Omnis, officia, animi nihil numquam laborum in sit unde fugit exercitationem dolor aut, et ut earum odio.</p>
+					</div>
+					<div class="commodity_price col-3">
+						<h1>Prijs:</h1>
+							<p>€ 387,-</p>
+					</div>
+				</article>
+
+			</section>

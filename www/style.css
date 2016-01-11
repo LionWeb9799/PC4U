@@ -199,14 +199,17 @@ footer a {
 	font-size: 15px;
 }
 
-}
-
 .commodity_box {
 	display: flex;
 	justify-content: space-between;
 	height: 200px;
 	border: 1px solid #000;
 	width: 100%;
+	margin-top: 10px;
+}
+
+.commodity_img {
+	background: url(http://lorempixel.com/250/200);
 }
 
 .intro_banner {
@@ -217,6 +220,9 @@ footer a {
 	width: 15%;
 }
 
+.flex_content {
+	display: flex;
+}
 
 /*===== Styling pages ========================= */
 
@@ -243,18 +249,13 @@ footer a {
 
 /* shop */
 
-.shopsection_one {
+.flexshop {
 	display: flex;
 	justify-content: space-between;
 }
 
 .shop_sidebar {
-	background-color: #B6F2AE;
-	box-shadow: 0 1px 5px 1px rgb(63,60,60);
-}
-
-.shop_sidebar ul {
-
+	width: 20%;
 }
 
 .shop_sidebar li { 
@@ -275,16 +276,33 @@ footer a {
 	color: #FFF;
 }
 
-.shop_sidebar li:hover {
-	background: #008000; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#008000, #009900); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#008000, #009900); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#008000, #009900); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#008000, #009900); /* Standard syntax */
+.shop_sidebar li:first-child {
+	margin-top: 0;
 }
 
-.shop_banner {
-	width: 80%;
+.shop_sidebar li:last-child {
+	margin-bottom: 0;
+}
+
+.shop_content {
+	width: 75%;
+}
+
+.shop_banner img {
+	width: 100%;
+}
+
+.shop_item {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.shop_description {
+	width: 50%;
+}
+
+.shop_price {
+	width: 15%;
 }
 
 /* reparatie */
