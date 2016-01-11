@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shop</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<style>
+
+	/*==Sidebar style====*/
+		aside ul {
+			border: solid 3px #000000;
+			padding: 20px;
+			list-style: square;
+			background-color: #F0F0F0
+		}
+
+		aside a {
+			text-decoration: none;
+			color: #000000;
+			font-size: 15px
+		}
+
+		aside li {
+			padding: 0 0 8px 0;
+		}
+		
+		aside li:last-child {
+			padding: 0px;
+		}
+
+		 aside { 
+			width: 15%;
+		}
+	/*==End sidebar style====*/
+		
+		.section1 {
+			display: flex;
+			justify-content: space-between;
+		}
+		
+		.main_page {
+			width: 80%;
+		}
+
+	/*==Commodity_list style====*/
+		.part {
+			margin: 30px 0 0 0;
+		} 
+
+		.image {
+			padding: 5px 5px 5px 5px;
+		}
+
+		.discription {
+			border-left: solid #000000 1px;
+			border-right: solid #000000 1px;
+		}
+
+		.discription h1 {
+			padding: 10px;
+			color: #CC0000;
+			font-size: 22px;
+		}
+
+		.discription p {
+			padding: 0 10px 0 10px;
+		}
+
+		.price {
+			text-align: center;
+			margin: 75px 0 0 0;
+		}
+
+		.price h1 {
+			margin: 0 0 0 -75px;
+		}
+
+		.price p{
+			color: #DD0000;
+			font-weight: bold;
+			font-size: 30px;
+		}
+
+
+	/*==End Commodity_list style====*/
+	</style>
+</head>
+<body>
+	<div class="pagewrapper">
+
+		<header>
+
+			<section>
+				<img src="20151116_PC4U_header-logo.png" alt="PC4U">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</section>
+
+			<nav class="main_nav">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Computers</a></li>
+					<li><a href="#">Games</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Reparatie</a></li>
+					<li><a href="#">Informatie</a></li>
+				</ul>
+			</nav>
+
+		</header>
+
+		<div class="main_content">
+			<section class="section1">
+				<aside>
+					<nav class="sidebar">
+						<ul>
+							<li><a href="#">Behuizing</a></li>
+							<li><a href="#">Monitoren</a></li>
+							<li><a href="#">DVD speler/brander</a></li>
+							<li><a href="#">Moederborden</a></li>
+							<li><a href="#">RAM-geheugen</a></li>
+							<li><a href="#">HDD(extern)</a></li>
+							<li><a href="#">Processoren</a></li>
+							<li><a href="#">Grafische kaarten</a></li>
+							<li><a href="#">Geluidskaarten</a></li>
+							<li><a href="#">Netwerkkaarten</a></li>
+							<li><a href="#">Bekabeling</a></li>
+							<li><a href="#">Voeding</a></li>
+							<li><a href="#">Muizen</a></li>
+							<li><a href="#">Toetsenboorden</a></li>
+							<li><a href="#">Geluidskaarten</a></li>
+							<li><a href="#">Racesturen</a></li>
+						</ul>
+					</nav>
+				</aside>
+
+				<div class="main_page">
+
+					<div class="shop_jumbotron jumbotron">
+						<img src="img/20160105_PC4U_shop_jumbotron.jpg" alt="Computer banner">
+					</div>
+				
+					<section class="commodity_list">
+						<div class="parts">
+							<article class="part commodity_box">
+								<img class="col-3 image" src="img/20150601_PC4U_computerparts_MSI_GeForce_GTX_970_GAMING_4G.png" alt="MSI GeForce GTX 970 GAMING 4G">
+								<div class="col-6 discription">
+								<h1>MSI GeForce GTX 970 GAMING 4G</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aut dignissimos modi, ipsum deserunt, ex assumenda. Natus, possimus architecto maiores necessitatibus illo nesciunt blanditiis at repellat voluptate sapiente? Tempora, impedit.</p>
+								</div>
+								<div class="price col-3">
+									<h1>prijs:</h1>
+									<p>€ 363,95</p>
+								</div>
+							</article>
+						</div>
+
+						<div class="parts">
+							<article class="part commodity_box">
+								<img class="col-3 image" src="img/20160601_PC4U_computerparts_Samsung_850_EVO_500GB.jpg" alt="Samsung 850 EVO 500GB">
+								<div class="col-6 discription">
+								<h1>Samsung 850 EVO 500GB</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aut dignissimos modi, ipsum deserunt, ex assumenda. Natus, possimus architecto maiores necessitatibus illo nesciunt blanditiis at repellat voluptate sapiente? Tempora, impedit.</p>
+								</div>
+								<div class="price col-3">
+									<h1>prijs:</h1>
+									<p>€ 164,95</p>
+								</div>
+							</article>
+						</div>
+
+						<div class="parts">
+							<article class="part commodity_box">
+								<img class="col-3 image" src="img/20150601_PC4U_computerparts_Intel_Core_i7-6700K_Boxed.png" alt="Intel Core i7-6700K Boxed">
+								<div class="col-6 discription">
+								<h1>Intel Core i7-6700K Boxed</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aut dignissimos modi, ipsum deserunt, ex assumenda. Natus, possimus architecto maiores necessitatibus illo nesciunt blanditiis at repellat voluptate sapiente? Tempora, impedit.</p>
+								</div>
+								<div class="price col-3">
+									<h1>prijs:</h1>
+									<p>€ 387,-</p>
+								</div>
+							</article>
+						</div>
+					</section>
+
+				</div>
+
+			</section>
+		</div>
+
+		<footer>
+			<section>
+				<h1>PC4U</h1>
+				<ul>
+					<li><a href="#">Like ons op Facebook</a></li>
+					<li><a href="#">Volg ons op Twitter</a></li>
+				</ul>
+			</section>
+		</footer>
+
+	</div>
+</body>
+</html>

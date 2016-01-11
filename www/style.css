@@ -213,6 +213,10 @@ footer a {
 	margin-bottom: 25px;
 }
 
+.sidebar {
+	width: 15%;
+}
+
 
 /*===== Styling pages ========================= */
 
@@ -238,6 +242,50 @@ footer a {
 /* games */
 
 /* shop */
+
+.shopsection_one {
+	display: flex;
+	justify-content: space-between;
+}
+
+.shop_sidebar {
+	background-color: #B6F2AE;
+	box-shadow: 0 1px 5px 1px rgb(63,60,60);
+}
+
+.shop_sidebar ul {
+
+}
+
+.shop_sidebar li { 
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+	padding: 5px 0 5px 0;
+	box-shadow: 0 1px 5px 1px rgb(63,60,60);
+	margin: 5px 0 5px 0;
+	background: #00cc00; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#00cc00, #008000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00cc00, #008000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00cc00, #008000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00cc00, #008000); /* Standard syntax */
+}
+
+.shop_sidebar a {
+	color: #FFF;
+}
+
+.shop_sidebar li:hover {
+	background: #008000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#008000, #009900); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#008000, #009900); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#008000, #009900); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#008000, #009900); /* Standard syntax */
+}
+
+.shop_banner {
+	width: 80%;
+}
 
 /* reparatie */
 
