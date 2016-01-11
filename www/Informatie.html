@@ -2,42 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Informatie</title>
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
-	<style>
-		.paragraphs h1 {
-		text-align: center;
-		padding: 10px 0 50px 0;
-	}
-
-	.paragraph h2 {
-		border-bottom: 2px solid #000000;
-		margin: 0 0 10px 0;
-		padding: 0 0 0 10px;
-	}
-
-	.paragraph p {
-		margin: 0 0 20px 0;
-		padding: 0 0 0 10px;
-	}
-
-	.formgroup input, textarea {
-		resize: none;
-		border: 1px solid #000000;
-		margin: 0 0 5px 10px;
-		padding: 5px;
-	}
-
-	.locatie {
-		margin: 20px 0 0 0;
-	}
-
-	iframe {
-		box-shadow: 1px 1px 3px black;
-		margin: 0 0 10px 0;
-	}
-
-	</style>
+	<title>sample</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="pagewrapper">
@@ -45,36 +11,38 @@
 		<header>
 
 			<section>
-				<img src="20151116_PC4U_header-logo.png" alt="PC4U">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="logo col-3">
+					<img src="20151116_PC4U_header-logo.png" alt="PC4U">
+				</div>
+				<p class="col-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 			</section>
 
 			<nav class="main_nav">
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Computers</a></li>
-					<li><a href="#">Games</a></li>
-					<li><a href="#">Shop</a></li>
-					<li><a href="#">Reparatie</a></li>
-					<li><a href="#">Informatie</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="computers.html">Computers</a></li>
+					<li><a href="games.html">Games</a></li>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="reparatie.html">Reparatie</a></li>
+					<li><a href="informatie.html">Informatie</a></li>
 				</ul>
 			</nav>
 
 		</header>
 
 		<div class="main_content">
-			<section class="paragraphs">
+			<section class="info_paragraphs">
 				<h1>Informatie</h1>
-					<article class="paragraph">
-						
+					<article>
 						<h2>Contact gegevens</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit ratione, consequatur, rem quam itaque nam vel omnis, veniam modi vero, doloribus iusto molestias ullam. Ipsam saepe aspernatur possimus ad odit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis modi accusantium dolor nulla error in inventore explicabo ut, fuga quae, adipisci amet perferendis dolores praesentium laboriosam. Adipisci est, consectetur.</p>
 					</article>
-					<article class="paragraph">
+
+					<article>
 						<h2>Contact formulier</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque labore, ipsa maxime, nam, omnis quidem hic minus temporibus aut recusandae libero! Et laborum, consequuntur tenetur eligendi cupiditate est voluptatum excepturi.</p>
-								<div class="Form">
-									
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis modi accusantium dolor nulla error in inventore explicabo ut, fuga quae, adipisci amet perferendis dolores praesentium laboriosam. Adipisci est, consectetur.</p>
+
+							<div class="Form">
 									<form>
 										<div class="formgroup">
 											<input type="text" id="Naam" placeholder="Naam*">
@@ -92,15 +60,14 @@
 											<input type="submit" value="Verzenden">
 										</div>
 									</form>
-
 								</div>
 					</article>
-					<article class="paragraph">
+					<article>
 						<div class="locatie">
 							<h2>Kaart en routebeschrijving</h2>
 						</div>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptatibus ab incidunt in dolorum. Quasi quas officia vitae laboriosam mollitia sint culpa exercitationem quia accusantium officiis magni voluptatum, illum magnam!</p>
-								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2477.906863513518!2d4.7780138!3d51.6065951!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xde96dee71e46a13f!2sRadius+College!5e0!3m2!1snl!2snl!4v1450106414014" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2477.906863513518!2d4.7780138!3d51.6065951!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xde96dee71e46a13f!2sRadius+College!5e0!3m2!1snl!2snl!4v1450106414014" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</article>
 			</section>
 		</div>
@@ -108,10 +75,10 @@
 		<footer>
 			<section>
 				<h1>PC4U</h1>
-				<ul>
-					<li><a href="#">Like ons op Facebook</a></li>
-					<li><a href="#">Volg ons op Twitter</a></li>
-				</ul>
+					<ul>
+						<li><a href="#">Like ons op Facebook</a></li>
+						<li><a href="#">Volg ons op Twitter</a></li>
+					</ul>
 			</section>
 		</footer>
 

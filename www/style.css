@@ -308,3 +308,35 @@ footer a {
 /* reparatie */
 
 /* informatie */
+
+	.info_paragraphs h1 {
+		text-align: center;
+		padding: 10px 0 50px 0;
+	}
+
+	.info_paragraphs h2 {
+		border-bottom: 2px solid #000000;
+		margin: 0 0 10px 0;
+		padding: 0 0 0 10px;
+	}
+
+	.info_paragraphs p {
+		margin: 0 0 20px 0;
+		padding: 0 0 0 10px;
+	}
+
+	.formgroup input, textarea {
+		resize: none;
+		border: 1px solid #000000;
+		margin: 0 0 5px 10px;
+		padding: 5px;
+	}
+
+	.locatie {
+		margin: 20px 0 0 0;
+	}
+
+	iframe {
+		box-shadow: 1px 1px 3px black;
+		margin: 0 0 10px 0;
+	}
