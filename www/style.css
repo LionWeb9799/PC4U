@@ -90,7 +90,9 @@ header nav li {
 header nav a {
 	display: inline-block;
 	color: #FFF;
+	width: 100%;
 	padding: 10px;
+	box-sizing: border-box;
 }
 
 header nav li:hover {
