@@ -269,11 +269,7 @@ footer a {
 }
 
 .shop_sidebar li { 
-	display: flex;
-	justify-content: center;
-	border: 1px solid black;
-	padding: 5px 0 5px 0;
-	box-shadow: 0 1px 5px 1px rgb(63,60,60);
+	
 	margin: 5px 0 5px 0;
 	background: #00cc00; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#00cc00, #008000); /* For Safari 5.1 to 6.0 */
@@ -283,7 +279,14 @@ footer a {
 }
 
 .shop_sidebar a {
+	display: flex;
+	justify-content: center;
 	color: #FFF;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 1px 5px 1px rgb(63,60,60);
+	border: 1px solid black;
+	width: 100%;
 }
 
 .shop_sidebar li:first-child {
