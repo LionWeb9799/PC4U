@@ -1,0 +1,30 @@
+.pagewrapper {
+	width: 800px;
+	background: lightgreen;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formgroup {
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+
+input, label, textarea {
+	margin: 5px 10px 5px 10px;
+	resize: none;
+	border-radius: 5px;
+	padding: 3px 3px 3px 3px;
+}
+
+.submit {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.registreren {
+	margin: 0 0 10px 0;
+}
