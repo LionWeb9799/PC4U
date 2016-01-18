@@ -69,6 +69,13 @@ header section p {
 	margin-top: 10px;
 }
 
+header section ul {
+	display: flex;
+	justify-content: space-between;
+	width: 180px;
+	margin: 10px 10px 0 0;
+}
+
 /* navigation bar */
 
 header nav ul {
@@ -237,13 +244,6 @@ footer a {
 	margin: 5px 0 20px 0;
 }
 
-.dissappear_placeholder {
-	opacity: 0.88;
-}
-
-.dissappear_placeholder:hover {
-	opacity: 0;
-}
 
 /* computers */
 
