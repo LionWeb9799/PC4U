@@ -218,7 +218,7 @@ footer a {
 }
 
 .commodity_img {
-	background: url(http://lorempixel.com/250/200);
+	width: 100%;
 }
 
 .intro_banner {
@@ -287,6 +287,14 @@ footer a {
 	box-shadow: 0 1px 5px 1px rgb(63,60,60);
 	border: 1px solid black;
 	width: 100%;
+}
+
+.shop_sidebar a:hover {
+	background: #008000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#008000, #009900); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#008000, #009900); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#008000, #009900); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#008000, #009900); /* Standard syntax */
 }
 
 .shop_sidebar li:first-child {
