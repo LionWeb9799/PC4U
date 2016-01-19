@@ -1,4 +1,4 @@
-.pagewrapper {
+.formwrapper {
 	width: 800px;
 	background: lightgreen;
 	margin: 0 auto;
@@ -23,8 +23,22 @@ input, label, textarea {
 .submit {
 	display: flex;
 	justify-content: flex-end;
+	margin: 20px 0 10px 0;
 }
 
 .registreren {
 	margin: 0 0 10px 0;
+}
+
+.geboortedatum {
+	display: flex;
+	justify-content: space-between;
+}
+
+.geboortedatum input {
+	width: 27px;
+}
+
+.geslacht {
+	width: 170px;
 }

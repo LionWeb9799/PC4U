@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registreren</title>
+	<link rel="stylesheet" href="form.css">
+</head>
+<body>
+	<div class="formwrapper">
+		
+		<h1>Registreren</h1>
+
+		<form action="submit.php">
+			<div class="formgroup">
+				<label for="gebruikersnaam">*Gebruikersnaam:</label>
+				<input id="gebruikersnaam" type="text" name="gebruikersnaam" required>
+			</div>
+
+			<div class="formgroup">
+				<label for="wachtwoord">*Wachtwoord:</label>
+				<input id="wachtwoord" type="password" name="wachtwoord" required>
+			</div>
+
+			<div class="formgroup">
+				<label for="wachtwoord-verifiëren">*Wachtwoord-verifiëren:</label>
+				<input id="wachtwoord-verifiëren" type="password" name="wachtwoord-verifiëren" required>
+			</div>
+
+			<div class="formgroup">
+				<label for="email">*E-mail:</label>
+				<input id="email" type="text" name="email">
+			</div>
+
+			<div class="formgroup">
+				<label for="geboortedatum">*Geboortedatum:</label>
+				<div class="geboortedatum">
+					<input id="geboortedatum" type="text" name="dag" placeholder="dd" required>
+					<input id="geboortedatum" type="text" name="maand" placeholder="mm" required>
+					<input id="geboortedatum" type="text" name="jaar" placeholder="jjjj" required>
+				</div>
+			</div>
+
+			<div class="formgroup">
+				<label for="telefoon">Telefoon:</label>
+				<input id="telefoon" type="text" name="telefoon">
+			</div>
+
+			<div class="formgroup">
+				<label for="">*Geslacht:</label>
+				<div class="geslacht">
+					<input id="man" type="radio" name="geslacht" value="man"> Man
+  					<input id="vrouw" type="radio" name="geslacht" value="vrouw"> Vrouw
+  				</div>
+			</div>
+
+			<div class="terms">
+				<input id="terms" type="checkbox" name="Terms" value="accepted"> Ik heb de <a href="voorwaarde.html">algemene voorwaarde</a> gelezen en ga hier mee akkoord
+			</div>
+
+			<div class="formgroup submit">
+				<input id="Registreren" type="submit" name="Registreren" value="Registreren">
+			</div>
+		</form>
+
+	</div>
+</body>
+</html>
