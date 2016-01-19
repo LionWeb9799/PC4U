@@ -2,12 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Inloggen</title>
+	<title>inloggen</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="form.css">
 	<link href='https://fonts.googleapis.com/css?family=Raleway|Roboto' rel='stylesheet' type='text/css'>
-	<style>
-		
-	</style>
 </head>
 <body>
 	<div class="pagewrapper">
@@ -19,10 +17,6 @@
 					<img src="20151116_PC4U_header-logo.png" alt="PC4U">
 				</div>
 				<p class="col-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				<ul>
-					<li><a href="inloggen.html">Inloggen</a></li>
-					<li><a href="registreren.html">Registreren</a></li>
-				</ul>
 			</section>
 
 			<nav class="main_nav">
@@ -39,9 +33,11 @@
 		</header>
 
 		<div class="main_content">
-			<div class="container login">
-				<form action="">
+			<div class="formwrapper">
+		
+				<h1>Login</h1>
 
+				<form action="inloggen.php">
 					<div class="formgroup">
 						<label for="gebruikersnaam">Gebruikersnaam:</label>
 						<input id="gebruikersnaam" type="text" name="gebruikersnaam">
@@ -51,12 +47,14 @@
 						<label for="wachtwoord">Wachtwoord:</label>
 						<input id="wachtwoord" type="text" name="wachtwoord">
 					</div>
-					
-					<div class="formgroup">
+								
+					<div class="formgroup submit">
 						<input id="inloggen" type="submit" name="inloggen" value="inloggen">
 					</div>
-
 				</form>
+				
+				<a class="registreren" href="registreren.html">Registreren</a>
+
 			</div>
 		</div>
 

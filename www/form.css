@@ -1,16 +1,23 @@
 .formwrapper {
-	width: 800px;
+	width: 1200px;
 	background: lightgreen;
-	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.formwrapper h1 {
+	margin: 20px 0 40px 0;
 }
 
 .formgroup {
 	width: 400px;
 	display: flex;
 	justify-content: space-between;
+}
+
+input {
+	border: 1px solid #000000;
 }
 
 input, label, textarea {
@@ -22,7 +29,7 @@ input, label, textarea {
 
 .submit {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	margin: 20px 0 10px 0;
 }
 
@@ -36,7 +43,7 @@ input, label, textarea {
 }
 
 .geboortedatum input {
-	width: 27px;
+	width: 28px;
 }
 
 .geslacht {
